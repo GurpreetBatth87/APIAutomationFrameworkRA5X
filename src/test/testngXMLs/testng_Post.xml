@@ -3,10 +3,8 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="APIAutomationFrameworkRA5X">
         <classes>
-            <class name="org.Automation5x.tests.crud.TCCreateBooking">
-                <methods>
-                    <include name="testPositivePOSTreq"/>
-                </methods>
+            <class name="org.Automation5x.tests.crud.TC_Integration">
+
             </class>
         </classes>
     </test>

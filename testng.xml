@@ -8,6 +8,12 @@
                     <include name="testPositivePOSTreq"/>
                 </methods>
             </class>
+            <class name="org.Automation5x.tests.crud.TC_Integration">
+                <methods>
+                    <include name="getToken"/>
+                    <include name="testCreateBooking"/>
+                </methods>
+            </class>
         </classes>
     </test>
 </suite>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="APIAutomationFrameworkRA5X">
+        <classes>
+
+        <class name="org.Automation5x.tests.crud.TC_Integration">
+            <methods>
+                <include name="getToken"/>
+            </methods>
+
+        </class>
+        </classes>
+
+
+    </test>
+</suite>
