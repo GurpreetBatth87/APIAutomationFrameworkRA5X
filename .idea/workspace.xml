@@ -5,17 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a81ba1d-02fa-484e-9638-bb8bb8b01685" name="Changes" comment="Inital Project n">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Automation5x/payloads/Auth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/Automation5x/tests/crud/TC_Integration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/testngXMLs/testng_Inte.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/testngXMLs/testng_p0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/Automation5x/endpoints/APIConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Automation5x/endpoints/APIConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Automation5x/modules/PayloadManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Automation5x/modules/PayloadManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/Automation5x/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/Automation5x/base/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/Automation5x/tests/crud/TCCreateBooking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/Automation5x/tests/crud/TCCreateBooking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/testngXMLs/testng_Post.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/testngXMLs/testng_Post.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Automation5x/utils/PropertyReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Automation5x/utils/PropertyReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/Automation5x/tests/crud/TC_Integration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/Automation5x/tests/crud/TC_Integration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/Automation5x/utils/PropertyReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/Automation5x/utils/PropertyReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestDataProperties.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TestDataProperties.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +60,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/gurpr/IdeaProjects/APIAutomationFrameworkRA5X/src/test/testngXMLs",
+    "last_opened_file_path": "C:/Users/gurpr/IdeaProjects/APIAutomationFrameworkRA5X/src/main/java/org/Automation5x",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -74,6 +70,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\gurpr\IdeaProjects\APIAutomationFrameworkRA5X\src\main\java\org\Automation5x" />
       <recent name="C:\Users\gurpr\IdeaProjects\APIAutomationFrameworkRA5X\src\test\testngXMLs" />
       <recent name="C:\Users\gurpr\IdeaProjects\APIAutomationFrameworkRA5X\src\test\resources" />
       <recent name="C:\Users\gurpr\IdeaProjects\APIAutomationFrameworkRA5X\src\main\java\org\Automation5x\payloads" />
@@ -84,6 +81,11 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.Automation5x.utils" />
     </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn test" />
+    </option>
   </component>
   <component name="RunManager" selected="TestNG.C:/Users/gurpr/IdeaProjects/APIAutomationFrameworkRA5X/src/test/testngXMLs/testng_Post.xml">
     <configuration default="true" type="JetRunConfigurationType">
@@ -109,17 +111,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/gurpr/IdeaProjects/APIAutomationFrameworkRA5X/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TCCreateBooking.testPositivePOSTreq" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomationFrameworkRA5X" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.Automation5x.tests.crud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.Automation5x.tests.crud" />
+      <option name="MAIN_CLASS_NAME" value="org.Automation5x.tests.crud.TCCreateBooking" />
+      <option name="METHOD_NAME" value="testPositivePOSTreq" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TC_Integration.testCreateAndZUpdateBooking" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TC_Integration" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomationFrameworkRA5X" />
       <extension name="coverage">
         <pattern>
@@ -129,8 +139,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.Automation5x.tests.crud" />
       <option name="MAIN_CLASS_NAME" value="org.Automation5x.tests.crud.TC_Integration" />
-      <option name="METHOD_NAME" value="testCreateAndZUpdateBooking" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -155,7 +164,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TC_Integration.testDeleteCreateBooking" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TC_Integration.testDeleteCreateBookingbyget" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomationFrameworkRA5X" />
       <extension name="coverage">
         <pattern>
@@ -165,7 +174,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.Automation5x.tests.crud" />
       <option name="MAIN_CLASS_NAME" value="org.Automation5x.tests.crud.TC_Integration" />
-      <option name="METHOD_NAME" value="testDeleteCreateBooking" />
+      <option name="METHOD_NAME" value="testDeleteCreateBookingbyget" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -176,10 +185,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.C:/Users/gurpr/IdeaProjects/APIAutomationFrameworkRA5X/src/test/testngXMLs/testng_Post.xml" />
-        <item itemvalue="TestNG.TC_Integration.testDeleteCreateBooking" />
-        <item itemvalue="TestNG.C:/Users/gurpr/IdeaProjects/APIAutomationFrameworkRA5X/testng.xml" />
-        <item itemvalue="TestNG.TC_Integration.testCreateAndZUpdateBooking" />
+        <item itemvalue="TestNG.TCCreateBooking.testPositivePOSTreq" />
+        <item itemvalue="TestNG.TC_Integration" />
         <item itemvalue="TestNG.TC_Integration.testCreateBooking" />
+        <item itemvalue="TestNG.TC_Integration.testDeleteCreateBookingbyget" />
       </list>
     </recent_temporary>
   </component>
@@ -237,5 +246,26 @@
     <MESSAGE value="Inital Project" />
     <MESSAGE value="Inital Project n" />
     <option name="LAST_COMMIT_MESSAGE" value="Inital Project n" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/Automation5x/utils/PropertyReader.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/Automation5x/utils/PropertyReader.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/Automation5x/endpoints/APIConstants.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
